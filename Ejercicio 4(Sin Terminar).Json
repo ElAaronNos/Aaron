@@ -1,0 +1,30 @@
+while (true) {
+let a = 0
+let b = 0
+
+function menu() {
+    console.log("Selecciona una opcion")
+    console.log("[1], Suma")
+    console.log("[2], resta")
+    console.log("[3], multiplicacion")
+    console.log("[4], division")
+    console.log("[5], Salir")
+
+}
+function choice(option, c, c1) {
+   switch (menu) {
+    case "1":
+       return a + b;
+    case "2":
+       return a - b;
+    case "3":
+       return a * b;
+    case "4":
+       return a / b;
+    if (c / c1 === 0) {console.log("Math Error") }   
+   }
+function calculator() {
+    const readline = readline createinter
+}
+}
+}
