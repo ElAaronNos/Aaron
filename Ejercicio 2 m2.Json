@@ -1,0 +1,35 @@
+///1
+///Variables///
+var a = 7
+var b = 3
+
+var c = 10
+var d = 4
+
+var e = 6
+var f = 2
+
+var g = 15
+
+var h = 9
+///Resultados///
+console.log("Primer Ejercicio")
+console.log("7 + 3 =", a +b)
+console.log("10 - 4 =", c -d)
+console.log("6 * 2 =", e *f)
+console.log("15 / 3 =", g /b)
+console.log("9 % 4 =", h %d)
+
+///2
+console.log("")
+console.log("")
+console.log("")
+///Variables
+var i = 5
+
+var j = 2
+///Resultados///
+console.log("Segundo Ejercicio")
+console.log("[i > b && j < d] =", (i > b) && (j < d)) ///True
+console.log("[i + b || j > d] =", (i > b) || (j > d)) /// True
+console.log("[i < b] =", i < b) ///False
